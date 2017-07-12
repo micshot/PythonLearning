@@ -1,3 +1,4 @@
-fnames = ("Michael", "Elizabeth")
-lnames = ("Morris", "Bushen")
-print (fnames(0) + " " + lnames(0))
+fname = ['Michael','Beth']
+lname = ['Morris','Bushen']
+userselect = int(input())
+print(fname[userselect] + ' ' + lname[userselect])
